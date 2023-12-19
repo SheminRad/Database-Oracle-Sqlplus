@@ -1,0 +1,293 @@
+
+INSERT INTO Player (player_id, nickname, email, password, money)
+VALUES (2415,'tinkererboi','aiddenden0@hotmail.com','5y4Sc9ryKf',234.4);
+INSERT INTO Player (player_id, nickname, email, password, money)
+VALUES (2584,'snakeserdar','deepsnake@gmail.com','ETNRbLOx9w',1567.5);
+INSERT INTO Player (player_id, nickname, email, password, money)
+VALUES (3129,'hunterboy07','hbsyolcu_ayt@outlook.com','WbKDiRFWBn',1835.2);
+INSERT INTO Player (player_id, nickname, email, password, money)
+VALUES (4002,'sarmale','vbreukelmane@protonmail.com','1wq3lDfiA6',107.6);
+INSERT INTO Player (player_id, nickname, email, password, money)
+VALUES (8625,'bhostie','baris.gokmen@metu.edu.tr','eJ777B7al1',2035);
+INSERT INTO Player (player_id, nickname, email, password, money)
+VALUES (2459,'LemonadeGuy','johnson_smith@gmail.com','31msPeV0cR',2255.2);
+INSERT INTO Player (player_id, nickname, email, password, money)
+VALUES (7124,'Rhinencephalon','doctoriad@hotmail.com','dNlBn2ESq8',1152.2);
+INSERT INTO Player (player_id, nickname, email, password, money)
+VALUES (9600,'chidhem1','selfiseimghe@gmail.com','vVX7VjU06f',1506.8);
+INSERT INTO Player (player_id, nickname, email, password, money)
+VALUES (4254,'worryz','legitpanda@outlook.com','XtIPBxGptR',1103);
+
+
+INSERT INTO Tank (tank_id, player_id , name, attack, defense)
+VALUES (3422,2415,'HeadReaper',75,44);
+INSERT INTO Tank (tank_id, player_id , name, attack, defense)
+VALUES (6911,2584,'lokmata',14,37);
+INSERT INTO Tank (tank_id, player_id , name, attack, defense)
+VALUES (6606,2584,'khapha1500',79,32);
+INSERT INTO Tank (tank_id, player_id , name, attack, defense)
+VALUES (5093,3129,'painkiller',28,65);
+INSERT INTO Tank (tank_id, player_id , name, attack, defense)
+VALUES (6551,4002,'OXYGEN',13,26);
+INSERT INTO Tank (tank_id, player_id , name, attack, defense)
+VALUES (7314,8625,'Determination',91,65);
+INSERT INTO Tank (tank_id, player_id , name, attack, defense)
+VALUES (8596,8625,'AuthisticShooter',35,91);
+INSERT INTO Tank (tank_id, player_id , name, attack, defense)
+VALUES (6733,2459,'SourDeath',91,95);
+INSERT INTO Tank (tank_id, player_id , name, attack, defense)
+VALUES (2773,7124,'blindinglights',87,38);
+INSERT INTO Tank (tank_id, player_id , name, attack, defense)
+VALUES (1793,9600,'DeceptiveKill',44,88);
+INSERT INTO Tank (tank_id, player_id , name, attack, defense)
+VALUES (9197,4254,'painkiller',44,74);
+INSERT INTO Tank (tank_id, player_id , name, attack, defense)
+VALUES (3701,4254,'ripoffworms',41,64);
+INSERT INTO Tank (tank_id, player_id , name, attack, defense)
+VALUES (1903,4254,'1NS0MN1A',99,99);
+
+
+INSERT INTO Component (comp_id, weight, rarity, sell_price, type)
+VALUES (10454,85,'rare',724.6,'utility');
+INSERT INTO Component (comp_id, weight, rarity, sell_price, type)
+VALUES (12477,87,'legendary',204.8,'weapon');
+INSERT INTO Component (comp_id, weight, rarity, sell_price, type)
+VALUES (23316,57,'rare',128.1,'utility');
+INSERT INTO Component (comp_id, weight, rarity, sell_price, type)
+VALUES (26623,43,'common',625.8,'weapon');
+INSERT INTO Component (comp_id, weight, rarity, sell_price, type)
+VALUES (29059,100,'common',790.6,'utility');
+INSERT INTO Component (comp_id, weight, rarity, sell_price, type)
+VALUES (14924,84,'legendary',863.6,'utility');
+INSERT INTO Component (comp_id, weight, rarity, sell_price, type)
+VALUES (51008,69,'rare',696.1,'weapon');
+INSERT INTO Component (comp_id, weight, rarity, sell_price, type)
+VALUES (27244,40,'common',437.5,'body');
+INSERT INTO Component (comp_id, weight, rarity, sell_price, type)
+VALUES (81961,37,'epic',495.8,'body');
+INSERT INTO Component (comp_id, weight, rarity, sell_price, type)
+VALUES (48740,85,'epic',549.5,'body');
+INSERT INTO Component (comp_id, weight, rarity, sell_price, type)
+VALUES (60580,24,'common',948.3,'weapon');
+INSERT INTO Component (comp_id, weight, rarity, sell_price, type)
+VALUES (24407,58,'common',435.5,'weapon');
+INSERT INTO Component (comp_id, weight, rarity, sell_price, type)
+VALUES (50822,78,'rare',997.8,'utility');
+INSERT INTO Component (comp_id, weight, rarity, sell_price, type)
+VALUES (91042,68,'rare',732.6,'weapon');
+INSERT INTO Component (comp_id, weight, rarity, sell_price, type)
+VALUES (43313,79,'common',317.5,'body');
+INSERT INTO Component (comp_id, weight, rarity, sell_price, type)
+VALUES (98934,30,'common',679.2,'body');
+INSERT INTO Component (comp_id, weight, rarity, sell_price, type)
+VALUES (72960,23,'rare',303.7,'body');
+INSERT INTO Component (comp_id, weight, rarity, sell_price, type)
+VALUES (37233,85,'rare',387.8,'weapon');
+INSERT INTO Component (comp_id, weight, rarity, sell_price, type)
+VALUES (22026,100,'legendary',652.8,'body');
+INSERT INTO Component (comp_id, weight, rarity, sell_price, type)
+VALUES (94094,96,'epic',474.7,'utility');
+INSERT INTO Component (comp_id, weight, rarity, sell_price, type)
+VALUES (36915,53,'rare',100.3,'body');
+INSERT INTO Component (comp_id, weight, rarity, sell_price, type)
+VALUES (59040,57,'common',588.7,'body');
+
+
+INSERT INTO Match (match_id, date_time, duration, winner_tank)
+VALUES (53242,TO_DATE('01/13/2023','MM/DD/YYYY'),40,3422);
+INSERT INTO Match (match_id, date_time, duration, winner_tank)
+VALUES (40792,TO_DATE('2023-04-01 00:10:10','YYYY-MM-DD HH:MI:SS'),982,8596);
+INSERT INTO Match (match_id, date_time, duration, winner_tank)
+VALUES (77922,TO_DATE('2023-12-05 00:10:10','YYYY-MM-DD HH:MI:SS'),134,1903);
+INSERT INTO Match (match_id, date_time, duration, winner_tank)
+VALUES (44326,TO_DATE('01/22/2023','MM/DD/YYYY'),10,2773);
+INSERT INTO Match (match_id, date_time, duration, winner_tank)
+VALUES (20387,TO_DATE('2023-09-06 00:10:10','YYYY-MM-DD HH:MI:SS'),450,7314);
+INSERT INTO Match (match_id, date_time, duration, winner_tank)
+VALUES (37235,TO_DATE('05/21/2023','MM/DD/YYYY'),923,5093);
+INSERT INTO Match (match_id, date_time, duration, winner_tank)
+VALUES (28874,TO_DATE('02/25/2023','MM/DD/YYYY'),221,9197);
+INSERT INTO Match (match_id, date_time, duration, winner_tank)
+VALUES (43100,TO_DATE('2023-12-09 00:10:10','YYYY-MM-DD HH:MI:SS'),714,7314);
+INSERT INTO Match (match_id, date_time, duration, winner_tank)
+VALUES (76201,TO_DATE('01/14/2023','MM/DD/YYYY'),973,6733);
+INSERT INTO Match (match_id, date_time, duration, winner_tank)
+VALUES (22333,TO_DATE('2023-10-01 00:10:10','YYYY-MM-DD HH:MI:SS'),752,3422);
+INSERT INTO Match (match_id, date_time, duration, winner_tank)
+VALUES (12556,TO_DATE('2023-02-07 00:10:10','YYYY-MM-DD HH:MI:SS'),508,1903);
+INSERT INTO Match (match_id, date_time, duration, winner_tank)
+VALUES (83558,TO_DATE('2023-07-07 00:10:10','YYYY-MM-DD HH:MI:SS'),629,1903);
+INSERT INTO Match (match_id, date_time, duration, winner_tank)
+VALUES (11849,TO_DATE('2023-12-07 00:10:10','YYYY-MM-DD HH:MI:SS'),167,6911);
+INSERT INTO Match (match_id, date_time, duration, winner_tank)
+VALUES (91064,TO_DATE('05/20/2023','MM/DD/YYYY'),74,6551);
+
+
+INSERT INTO TankMovement (match_id, tank_id, time, position, angle, damage)
+VALUES (53242,3422,14,65.54,125,70);
+INSERT INTO TankMovement (match_id, tank_id, time, position, angle, damage)
+VALUES (53242,3422,40,44.73,314,27);
+INSERT INTO TankMovement (match_id, tank_id, time, position, angle, damage)
+VALUES (53242,9197,22,81.35,129,68);
+INSERT INTO TankMovement (match_id, tank_id, time, position, angle, damage)
+VALUES (40792,8596,74,31.54,82,75);
+INSERT INTO TankMovement (match_id, tank_id, time, position, angle, damage)
+VALUES (40792,6911,724,22.1,67,94);
+INSERT INTO TankMovement (match_id, tank_id, time, position, angle, damage)
+VALUES (77922,6911,696,32.85,234,47);
+INSERT INTO TankMovement (match_id, tank_id, time, position, angle, damage)
+VALUES (44326,2773,10,44.93,266,100);
+INSERT INTO TankMovement (match_id, tank_id, time, position, angle, damage)
+VALUES (20387,7314,231,2.96,162,86);
+INSERT INTO TankMovement (match_id, tank_id, time, position, angle, damage)
+VALUES (20387,7314,351,9.68,259,7);
+INSERT INTO TankMovement (match_id, tank_id, time, position, angle, damage)
+VALUES (20387,1793,113,51.24,208,35);
+INSERT INTO TankMovement (match_id, tank_id, time, position, angle, damage)
+VALUES (20387,1793,450,7.03,107,59);
+INSERT INTO TankMovement (match_id, tank_id, time, position, angle, damage)
+VALUES (37235,3701,464,94.03,175,72);
+INSERT INTO TankMovement (match_id, tank_id, time, position, angle, damage)
+VALUES (28874,5093,546,15.65,305,64);
+INSERT INTO TankMovement (match_id, tank_id, time, position, angle, damage)
+VALUES (43100,6606,953,38.34,47,60);
+INSERT INTO TankMovement (match_id, tank_id, time, position, angle, damage)
+VALUES (43100,7314,40,24.45,294,26);
+INSERT INTO TankMovement (match_id, tank_id, time, position, angle, damage)
+VALUES (76201,6733,477,63.52,283,96);
+INSERT INTO TankMovement (match_id, tank_id, time, position, angle, damage)
+VALUES (76201,3422,57,79.77,80,64);
+INSERT INTO TankMovement (match_id, tank_id, time, position, angle, damage)
+VALUES (22333,1793,145,86.43,236,72);
+INSERT INTO TankMovement (match_id, tank_id, time, position, angle, damage)
+VALUES (12556,1903,363,77.38,284,91);
+INSERT INTO TankMovement (match_id, tank_id, time, position, angle, damage)
+VALUES (83558,6911,19,6.99,258,30);
+INSERT INTO TankMovement (match_id, tank_id, time, position, angle, damage)
+VALUES (11849,2773,631,11.49,343,51);
+
+
+INSERT INTO TankJoinMatch (match_id, tank_id, mmr_point)
+VALUES (53242,3422,142);
+INSERT INTO TankJoinMatch (match_id, tank_id, mmr_point)
+VALUES (53242,9197,135);
+INSERT INTO TankJoinMatch (match_id, tank_id, mmr_point)
+VALUES (40792,6911,105);
+INSERT INTO TankJoinMatch (match_id, tank_id, mmr_point)
+VALUES (40792,8596,114);
+INSERT INTO TankJoinMatch (match_id, tank_id, mmr_point)
+VALUES (77922,6911,101);
+INSERT INTO TankJoinMatch (match_id, tank_id, mmr_point)
+VALUES (77922,1903,107);
+INSERT INTO TankJoinMatch (match_id, tank_id, mmr_point)
+VALUES (44326,2773,130);
+INSERT INTO TankJoinMatch (match_id, tank_id, mmr_point)
+VALUES (44326,6551,149);
+INSERT INTO TankJoinMatch (match_id, tank_id, mmr_point)
+VALUES (20387,1793,139);
+INSERT INTO TankJoinMatch (match_id, tank_id, mmr_point)
+VALUES (20387,7314,149);
+INSERT INTO TankJoinMatch (match_id, tank_id, mmr_point)
+VALUES (37235,3701,113);
+INSERT INTO TankJoinMatch (match_id, tank_id, mmr_point)
+VALUES (37235,5093,139);
+INSERT INTO TankJoinMatch (match_id, tank_id, mmr_point)
+VALUES (28874,9197,137);
+INSERT INTO TankJoinMatch (match_id, tank_id, mmr_point)
+VALUES (28874,5093,137);
+INSERT INTO TankJoinMatch (match_id, tank_id, mmr_point)
+VALUES (43100,6606,139);
+INSERT INTO TankJoinMatch (match_id, tank_id, mmr_point)
+VALUES (43100,7314,136);
+INSERT INTO TankJoinMatch (match_id, tank_id, mmr_point)
+VALUES (76201,6733,118);
+INSERT INTO TankJoinMatch (match_id, tank_id, mmr_point)
+VALUES (76201,3422,113);
+INSERT INTO TankJoinMatch (match_id, tank_id, mmr_point)
+VALUES (22333,3422,139);
+INSERT INTO TankJoinMatch (match_id, tank_id, mmr_point)
+VALUES (22333,1793,115);
+INSERT INTO TankJoinMatch (match_id, tank_id, mmr_point)
+VALUES (12556,1903,128);
+INSERT INTO TankJoinMatch (match_id, tank_id, mmr_point)
+VALUES (12556,7314,112);
+INSERT INTO TankJoinMatch (match_id, tank_id, mmr_point)
+VALUES (83558,1903,142);
+INSERT INTO TankJoinMatch (match_id, tank_id, mmr_point)
+VALUES (83558,6911,109);
+INSERT INTO TankJoinMatch (match_id, tank_id, mmr_point)
+VALUES (11849,2773,124);
+INSERT INTO TankJoinMatch (match_id, tank_id, mmr_point)
+VALUES (11849,6911,119);
+INSERT INTO TankJoinMatch (match_id, tank_id, mmr_point)
+VALUES (91064,3701,143);
+INSERT INTO TankJoinMatch (match_id, tank_id, mmr_point)
+VALUES (91064,6551,105);
+
+
+INSERT INTO TankComponents (tank_id, comp_id, date_attached)
+VALUES (3422,10454, TO_DATE('04/15/2023','MM/DD/YYYY'));
+INSERT INTO TankComponents (tank_id, comp_id, date_attached)
+VALUES (3422,12477, TO_DATE('2023-01-04 00:10:10','YYYY-MM-DD HH:MI:SS'));
+INSERT INTO TankComponents (tank_id, comp_id, date_attached)
+VALUES (6911,23316, TO_DATE('06/24/2023','MM/DD/YYYY'));
+INSERT INTO TankComponents (tank_id, comp_id, date_attached)
+VALUES (6606,26623, TO_DATE('2023-10-01 00:10:10','YYYY-MM-DD HH:MI:SS'));
+INSERT INTO TankComponents (tank_id, comp_id, date_attached)
+VALUES (5093,29059, TO_DATE('2023-09-06 00:10:10','YYYY-MM-DD HH:MI:SS'));
+INSERT INTO TankComponents (tank_id, comp_id, date_attached)
+VALUES (5093,14924, TO_DATE('2023-07-02 00:10:10','YYYY-MM-DD HH:MI:SS'));
+INSERT INTO TankComponents (tank_id, comp_id, date_attached)
+VALUES (5093,51008, TO_DATE('10/25/2023','MM/DD/YYYY'));
+INSERT INTO TankComponents (tank_id, comp_id, date_attached)
+VALUES (6551,27244, TO_DATE('2023-10-02 00:10:10','YYYY-MM-DD HH:MI:SS'));
+INSERT INTO TankComponents (tank_id, comp_id, date_attached)
+VALUES (7314,81961, TO_DATE('03/18/2023','MM/DD/YYYY'));
+INSERT INTO TankComponents (tank_id, comp_id, date_attached)
+VALUES (7314,48740, TO_DATE('2023-05-04 00:10:10','YYYY-MM-DD HH:MI:SS'));
+INSERT INTO TankComponents (tank_id, comp_id, date_attached)
+VALUES (8596,60580, TO_DATE('10/20/2023','MM/DD/YYYY'));
+INSERT INTO TankComponents (tank_id, comp_id, date_attached)
+VALUES (8596,24407, TO_DATE('2023-04-11 00:10:10','YYYY-MM-DD HH:MI:SS'));
+INSERT INTO TankComponents (tank_id, comp_id, date_attached)
+VALUES (6733,50822, TO_DATE('10/22/2023','MM/DD/YYYY'));
+INSERT INTO TankComponents (tank_id, comp_id, date_attached)
+VALUES (2773,91042, TO_DATE('12/20/2022','MM/DD/YYYY'));
+INSERT INTO TankComponents (tank_id, comp_id, date_attached)
+VALUES (2773,43313, TO_DATE('10/18/2023','MM/DD/YYYY'));
+INSERT INTO TankComponents (tank_id, comp_id, date_attached)
+VALUES (1793,98934, TO_DATE('11/28/2022','MM/DD/YYYY'));
+INSERT INTO TankComponents (tank_id, comp_id, date_attached)
+VALUES (9197,72960, TO_DATE('2023-04-08 00:10:10','YYYY-MM-DD HH:MI:SS'));
+INSERT INTO TankComponents (tank_id, comp_id, date_attached)
+VALUES (3701,37233, TO_DATE('2023-02-01 00:10:10','YYYY-MM-DD HH:MI:SS'));
+INSERT INTO TankComponents (tank_id, comp_id, date_attached)
+VALUES (1903,22026, TO_DATE('04/26/2023','MM/DD/YYYY'));
+INSERT INTO TankComponents (tank_id, comp_id, date_attached)
+VALUES (1903,94094, TO_DATE('02/18/2023','MM/DD/YYYY'));
+INSERT INTO TankComponents (tank_id, comp_id, date_attached)
+VALUES (1903,36915, TO_DATE('06/24/2023','MM/DD/YYYY'));
+INSERT INTO TankComponents (tank_id, comp_id, date_attached)
+VALUES (1903,59040, TO_DATE('2023-10-01 00:10:10','YYYY-MM-DD HH:MI:SS'));
+
+
+INSERT INTO PlayerFriends (player_id, friend_id, date_added)
+VALUES (2415,2584,TO_DATE('2023-05-04 00:10:10','YYYY-MM-DD HH:MI:SS'));
+INSERT INTO PlayerFriends (player_id, friend_id, date_added)
+VALUES (2415,4002,TO_DATE('07/16/2023','MM/DD/YYYY'));
+INSERT INTO PlayerFriends (player_id, friend_id, date_added)
+VALUES (2415,2459,TO_DATE('2023-05-10 00:10:10','YYYY-MM-DD HH:MI:SS'));
+INSERT INTO PlayerFriends (player_id, friend_id, date_added)
+VALUES (2584,8625,TO_DATE('2023-03-08 00:10:10','YYYY-MM-DD HH:MI:SS'));
+INSERT INTO PlayerFriends (player_id, friend_id, date_added)
+VALUES (2584,7124,TO_DATE('06/30/2023','MM/DD/YYYY'));
+INSERT INTO PlayerFriends (player_id, friend_id, date_added)
+VALUES (3129,4254,TO_DATE('11/22/2022','MM/DD/YYYY'));
+INSERT INTO PlayerFriends (player_id, friend_id, date_added)
+VALUES (8625,7124,TO_DATE('07/25/2023','MM/DD/YYYY'));
+INSERT INTO PlayerFriends (player_id, friend_id, date_added)
+VALUES (8625,4254,TO_DATE('2023-03-07 00:10:10','YYYY-MM-DD HH:MI:SS'));
+INSERT INTO PlayerFriends (player_id, friend_id, date_added)
+VALUES (2459,7124,TO_DATE('12/16/2022','MM/DD/YYYY'));
+INSERT INTO PlayerFriends (player_id, friend_id, date_added)
+VALUES (7124,4254,TO_DATE('09/22/2023','MM/DD/YYYY'));
